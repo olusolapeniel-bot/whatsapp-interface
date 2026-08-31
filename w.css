@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.top-bar{
+    height: 30px;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.whatsapp-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:15px;
+}
+.icons{
+    display: flex;
+    gap: 25px;
+}
+.aside-top{
+    height: 50px;
+    background-color:#efefef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.first-profile{
+    border-radius: 50%;
+}
+.aside-icons{
+    gap: 10px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    background-color:#ffffff;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.border-line{
+    border: solid 1px white;
+}
+.input-search{
+    border: none;
+    outline:none;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search-image{
+    margin-left: 30px;
+}
+.page{
+    display: flex;
+    flex-direction: row ;
+}
+aside{
+    width: 600px;
+    margin: 10px 10px;
+    height: 500px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid lightgrey;
+    gap: 10px;
+}
+.chat-picture{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.chatone{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+ .chatthree{
+    display: flex;
+    flex-direction: row;
+    gap: 66px;
+    align-items: center;
+}
+.chatfour{
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+    align-items: center;
+} 
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-bottom: 1px solid lightgrey;
+}
+.chatone h1 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #464646;
+}
+.chatthree h1 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #464646;
+}
+.chatfour h1 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #464646;
+}
+.ned{
+    font-size: 10px;
+    color: #b2b2b2;
+}
+.nedone{
+    font-size: 12px;
+    color: #7a7a7a;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.alltwo{
+    display: flex;
+    flex-direction: row;
+}
+.chattwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+.right-side{
+    height: 30px;
+    background-color: #eaeaea;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.right-head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.whitman{
+    display: flex;
+    flex-direction: column;
+}
+.whitman h1 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #464646;
+}
+.pagetwo{
+    display: flex;
+    flex-direction: column;
+}
+.peter{
+    background-image: url("/w_img/whatsapp\ background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.messages{
+    background-color: #fffffd ;
+    border-radius: 8px;
+    width: 310px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.lisboa{
+    display: block;
+    border-radius: 8px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.run{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.green{
+    font-size: 18px;
+    color: #80d6a9;
+}
+.pink{
+    font-size: 18px;
+    color: #ffa5c8;
+}
+.response{
+    background-color: #d9fdd3;
+    width: 250px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+    position: absolute;
+    margin-left: 69%;
+    margin-top: 28%;
+    
+}
+.another{
+    background-color: #fffffd;
+    border-radius: 10px;
+    width: 250px;
+    position: absolute;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 40px;
+    margin-top: 32% ;
+    
+}
+.responsetwo{
+    background-color: #fffffd;
+    border-radius: 10px;
+    width: 250px;
+    position: absolute;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 40px;
+    margin-top: 41% ;
+}
+.message-box{
+    display: flex;
+    flex-direction: row;
+    background-color:#f5f1ee;
+    position: absolute;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    margin-top: 53%;
+}
+.inputtext{
+   width:980px ;
+   height: 30px;
+   border: none;
+   outline: none;
+}
